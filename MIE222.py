@@ -196,7 +196,7 @@ print('//////////////////////////////////////////////////////')
 # Function to create an image of the schedule
 def create_schedule_image(practical_section, group_number, tutorial_section_combined, scheduled_experiments, scheduled_tutorials_combined, scheduled_quizzes_combined):
     # Create a blank image
-    image = Image.new('RGB', (400, 400), 'white')
+    image = Image.new('RGB', (500, 400), 'white')
     draw = ImageDraw.Draw(image)
     font = ImageFont.load_default()
 
