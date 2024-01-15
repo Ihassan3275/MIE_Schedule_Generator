@@ -20,7 +20,9 @@
 
 This Python script retrieves stored schedule data and lists the schedules for
 labs/practicals, tutorials, quizzes, and midterms for defined sections, for the
-course MIE234 for the Winter 2024 semester. Everyone had similar quiz and midterm schedules and therefore, this script will only
+course MIE234 for the Winter 2024 semester. Everyone had similar quiz and midterm 
+schedules and therefore, this script will only display a complete list based on 
+your tutorial number.
 
 Note: Each course has a separate file.
 
@@ -40,7 +42,7 @@ import datetime
 from PIL import Image, ImageDraw, ImageFont
 
 # Dates have been updated since V1.0.0 to display exact Quiz dates instead of Quiz week dates.
-# Updated IDE link is here: 
+# Updated IDE link is here: https://trinket.io/python3/197474b165
 # Define the data for Tutorial sections 1 and 3
 tutorial_1_3_data = {
     "Quiz 1": "Jan 24, 2024, 12-1:30pm",
