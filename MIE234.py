@@ -30,27 +30,29 @@ Note: Each course has a separate file.
 
 # Copyright (c) 2024, Ibrahim Hassan
 # Created on: January 13, 2024
-# Version: 1.1.0., January 14, 2024
+# Version: 1.2.0., January 16, 2024
 # Let me know if there are any errors or incorrect data is being generated.
-# Data is accurate as of January 14, 2024
+# Data is accurate as of January 16, 2024
 # Version history:
 # Version: 1.0.0., January 13, 2024: Original
 # Version: 1.1.0., January 14, 2024: updated to display exact Quiz dates instead of Quiz week dates.
+# Version: 1.2.0., January 16, 2024: updated to display exact Midterm dates after syllabus update.
+
 
 ################################################################################
 import datetime
 from PIL import Image, ImageDraw, ImageFont
 
 # Dates have been updated since V1.0.0 to display exact Quiz dates instead of Quiz week dates.
-# Updated IDE link is here: https://trinket.io/python3/197474b165
+# Updated IDE link is here: https://trinket.io/python3/948b73b758
 # Define the data for Tutorial sections 1 and 3
 tutorial_1_3_data = {
     "Quiz 1": "Jan 24, 2024, 12-1:30pm",
     "Quiz 2": "Jan 31, 2024, 12-1:30pm",
-    "Midterm 1": "Feb 5, 2024",
+    "Midterm 1": "Feb 7, 2024, 12-3pm",
     "Quiz 3": "March 6, 2024, 12-1:30pm",
     "Quiz 4": "March 13, 2024, 12-1:30pm",
-    "Midterm 2": "March 18, 2024",
+    "Midterm 2": "March 20, 2024, 12-3pm",
     "Quiz 5": "April 3, 2024, 12-1:30pm",
     "Quiz 6": "April 10, 2024, 12-1:30pm",
 }
@@ -59,10 +61,10 @@ tutorial_1_3_data = {
 tutorial_2_4_data = {
     "Quiz 1": "Jan 24, 2024, 1:30-3pm",
     "Quiz 2": "Jan 31, 2024, 1:30-3pm",
-    "Midterm 1": "Feb 5, 2024, Time-unknown",
+    "Midterm 1": "Feb 7, 2024, 12-3pm",
     "Quiz 3": "March 6, 2024, 1:30-3pm",
     "Quiz 4": "March 13, 2024, 1:30-3pm",
-    "Midterm 2": "March 18, 2024, Time-unknown",
+    "Midterm 2": "March 20, 2024, 12-3pm",
     "Quiz 5": "April 3, 2024, 1:30-3pm",
     "Quiz 6": "April 10, 2024, 1:30-3pm",
 }
