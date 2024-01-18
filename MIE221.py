@@ -28,9 +28,18 @@ Note: Each course has a separate file.
 
 # Copyright (c) 2024, Ibrahim Hassan
 # Created on: January 13, 2024
-# Version: 1.0.0., January 13, 2024
+# Version: 1.1.0., January 18, 2024
 # Let me know if there are any errors or incorrect data is being generated.
-# Data is accurate as of January 13, 2024
+# Data is accurate as of January 18, 2024
+# Version history:
+# Version: 1.0.0., January 13, 2024: Original
+# Version: 1.1.0., January 14, 2024: updated to reflect the practicals schedule changes for PRA0104-2 (L to Z).
+'''                                      "The lab schedule has changed for PRA0104-2 (last name L-Z) ONLY. Due 
+                                          to scheduling conflicts with the MIE210 midterm and Lab 3 for PRA0104-2 
+                                          students, we have moved Lab 3 from March 6th to March 20th, and Lab 4 
+                                          from March 20th to March 27th." ~ Quercus announcement.
+'''
+# Updated external IDE link: https://trinket.io/python3/d1b077064f
 
 ################################################################################
 import datetime
@@ -164,12 +173,12 @@ events = {
         4: {'A': datetime.date(2024, 2, 28), 'B': datetime.date(2024, 2, 28), 'C': datetime.date(2024, 2, 28),
             'D': datetime.date(2024, 2, 28), 'E': datetime.date(2024, 2, 28), 'F': datetime.date(2024, 2, 28),
             'G': datetime.date(2024, 2, 28), 'H': datetime.date(2024, 2, 28), 'I': datetime.date(2024, 2, 28),
-            'J': datetime.date(2024, 2, 28), 'K': datetime.date(2024, 2, 28), 'L': datetime.date(2024, 3, 6),
-            'M': datetime.date(2024, 3, 6), 'N': datetime.date(2024, 3, 6), 'O': datetime.date(2024, 3, 6),
-            'P': datetime.date(2024, 3, 6), 'Q': datetime.date(2024, 3, 6), 'R': datetime.date(2024, 3, 6),
-            'S': datetime.date(2024, 3, 6), 'T': datetime.date(2024, 3, 6), 'U': datetime.date(2024, 3, 6),
-            'V': datetime.date(2024, 3, 6), 'W': datetime.date(2024, 3, 6), 'X': datetime.date(2024, 3, 6),
-            'Y': datetime.date(2024, 3, 6), 'Z': datetime.date(2024, 3, 6)},
+            'J': datetime.date(2024, 2, 28), 'K': datetime.date(2024, 2, 28), 'L': datetime.date(2024, 3, 20),
+            'M': datetime.date(2024, 3, 20), 'N': datetime.date(2024, 3, 20), 'O': datetime.date(2024, 3, 20),
+            'P': datetime.date(2024, 3, 20), 'Q': datetime.date(2024, 3, 20), 'R': datetime.date(2024, 3, 20),
+            'S': datetime.date(2024, 3, 20), 'T': datetime.date(2024, 3, 20), 'U': datetime.date(2024, 3, 20),
+            'V': datetime.date(2024, 3, 20), 'W': datetime.date(2024, 3, 20), 'X': datetime.date(2024, 3, 20),
+            'Y': datetime.date(2024, 3, 20), 'Z': datetime.date(2024, 3, 20)},
         5: {'A': datetime.date(2024, 3, 1), 'B': datetime.date(2024, 3, 1), 'C': datetime.date(2024, 3, 1),
             'D': datetime.date(2024, 3, 1), 'E': datetime.date(2024, 3, 1), 'F': datetime.date(2024, 3, 1),
             'G': datetime.date(2024, 3, 1), 'H': datetime.date(2024, 3, 1), 'I': datetime.date(2024, 3, 1),
@@ -220,12 +229,12 @@ events = {
     4: {'A': datetime.date(2024, 3, 13), 'B': datetime.date(2024, 3, 13), 'C': datetime.date(2024, 3, 13),
         'D': datetime.date(2024, 3, 13), 'E': datetime.date(2024, 3, 13), 'F': datetime.date(2024, 3, 13),
         'G': datetime.date(2024, 3, 13), 'H': datetime.date(2024, 3, 13), 'I': datetime.date(2024, 3, 13),
-        'J': datetime.date(2024, 3, 13), 'K': datetime.date(2024, 3, 13), 'L': datetime.date(2024, 3, 20),
-        'M': datetime.date(2024, 3, 20), 'N': datetime.date(2024, 3, 20), 'O': datetime.date(2024, 3, 20),
-        'P': datetime.date(2024, 3, 20), 'Q': datetime.date(2024, 3, 20), 'R': datetime.date(2024, 3, 20),
-        'S': datetime.date(2024, 3, 20), 'T': datetime.date(2024, 3, 20), 'U': datetime.date(2024, 3, 20),
-        'V': datetime.date(2024, 3, 20), 'W': datetime.date(2024, 3, 20), 'X': datetime.date(2024, 3, 20),
-        'Y': datetime.date(2024, 3, 20), 'Z': datetime.date(2024, 3, 20)},
+        'J': datetime.date(2024, 3, 13), 'K': datetime.date(2024, 3, 13), 'L': datetime.date(2024, 3, 27),
+        'M': datetime.date(2024, 3, 27), 'N': datetime.date(2024, 3, 27), 'O': datetime.date(2024, 3, 27),
+        'P': datetime.date(2024, 3, 27), 'Q': datetime.date(2024, 3, 27), 'R': datetime.date(2024, 3, 27),
+        'S': datetime.date(2024, 3, 27), 'T': datetime.date(2024, 3, 27), 'U': datetime.date(2024, 3, 27),
+        'V': datetime.date(2024, 3, 27), 'W': datetime.date(2024, 3, 27), 'X': datetime.date(2024, 3, 27),
+        'Y': datetime.date(2024, 3, 27), 'Z': datetime.date(2024, 3, 27)},
     2: {'A': datetime.date(2024, 3, 20), 'B': datetime.date(2024, 3, 20), 'C': datetime.date(2024, 3, 20),
         'D': datetime.date(2024, 3, 20), 'E': datetime.date(2024, 3, 20), 'F': datetime.date(2024, 3, 20),
         'G': datetime.date(2024, 3, 20), 'H': datetime.date(2024, 3, 20), 'I': datetime.date(2024, 3, 20),
