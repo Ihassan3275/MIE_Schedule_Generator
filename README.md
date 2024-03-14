@@ -11,8 +11,8 @@ Copyright (c) 2024, Ibrahim Hassan
 
 Created on: January 13, 2024
 
-Version: 1.0.0., January 13, 2024
+Version: 1.1.0., January 18, 2024
 
 Let me know if there are any errors or if incorrect data is being generated.
 
-Data is accurate as of January 13, 2024
+Data is accurate as of February 15, 2024
